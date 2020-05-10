@@ -2,4 +2,15 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: rgba(0,0,0,.65);
   background-color: #ffffff;
+  font-weight: 300;
+}
+
+a {
+  font-weight: 500;
+  color: rgba(0,0,0,.65);
+
+  &:hover {
+    color: rgba(0,0,0,.65);
+    text-decoration: none;
+  }
 }

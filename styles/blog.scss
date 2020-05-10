@@ -1,0 +1,18 @@
+.blog {
+  &__summary {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ededed;
+    transition: color .3s,box-shadow .3s;
+
+    &:hover {
+      color: #A5678E;
+      box-shadow: 0 9px 5px -8px rgba(0,0,0,.2);
+    }
+  }
+
+  &__summary-info {
+    color: rgba(0,0,0,.35);
+    font-size: 14px;
+    margin-right: 25px;
+  }
+}

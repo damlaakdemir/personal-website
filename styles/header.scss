@@ -3,8 +3,17 @@
 @media (min-width: 748px) {
   .header {
     padding: 50px 0;
-    height: 1000px;
-    border-right: 1px solid #cccccc;
+    min-height: 920px;
+    height: 100%;
+
+    &:after {
+      position: absolute;
+      top: 15px;
+      bottom: 15px;
+      right: 0;
+      content: "";
+      border-right: 1px solid #ededed;
+    }
 
     &__avatar {
       width: 150px;
@@ -29,12 +38,29 @@
     }
 
     &__icon {
-      width: 28px;
+      font-size: 28px;
       color: rgba(0,0,0,.25);
       transition: all .5s;
 
       &:hover {
         color: #A5678E;
+      }
+    }
+
+    &__menu {
+      list-style-type: none;
+
+      li {
+        padding-bottom: 8px;
+      }
+
+      &__item {
+        font-weight: 300;
+        transition: color .5s;
+
+        &:hover {
+          color: #A5678E;
+        }
       }
     }
 
@@ -59,7 +85,6 @@
   .header {
     padding: 50px 0;
     width: 100%;
-    border-right: 1px solid #cccccc;
 
     &__avatar {
       width: 150px;
@@ -84,7 +109,7 @@
     }
 
     &__icon {
-      width: 28px;
+      font-size: 28px;
       color: rgba(0,0,0,.25);
       transition: all .5s;
 
