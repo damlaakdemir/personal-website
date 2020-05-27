@@ -1,0 +1,32 @@
+// portfolio
+
+.portfolio {
+  &__testinium,
+  &__lookus {
+    max-width: 160px;
+  }
+
+  &__aweb {
+    max-width: 100px;
+  }
+
+  &__link {
+
+    &-testinium {
+      color: #008fd6;
+    }
+
+    &-loadium {
+      color: #f3742d;
+    }
+
+    &-dashboard {
+      color: #1ed760;
+    }
+  }
+
+  &__date {
+    color: rgba(0,0,0,.35);
+    font-size: 14px;
+  }
+}

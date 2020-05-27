@@ -1,5 +1,6 @@
-import Head from 'next/head';
 import React from 'react';
+import Head from 'next/head';
+
 import Navigation from './navigation'
 
 function Layout({ children }) {
@@ -12,7 +13,7 @@ function Layout({ children }) {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
             <Navigation />
-            <main className="col-lg-9 col-md-8 col-sm-12 col-12">{children}</main>
+            <main className="col-lg-9 col-md-8 col-sm-12 col-12">{ children }</main>
         </div>
     )
 }

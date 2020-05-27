@@ -48,13 +48,9 @@
     }
 
     &__menu {
-      list-style-type: none;
-
-      li {
-        padding-bottom: 8px;
-      }
-
       &__item {
+        display: block;
+        margin-top: 5px;
         font-weight: 300;
         transition: color .5s;
 

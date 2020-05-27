@@ -1,50 +1,36 @@
 import React from 'react';
+
 import Layout from '../components/layout'
 
 function HomePage() {
     return <Layout>
         <div className="main">
             <h3 className="main__title">Hakkımda</h3>
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa, deserunt inventore ipsam
-                itaque minima omnis perspiciatis reiciendis. Asperiores consequuntur earum error, hic laborum officiis
-                voluptates! Assumenda natus perspiciatis voluptas?
-            </div>
-            <div>A fugit quaerat quia vitae! Accusamus assumenda blanditiis corporis debitis, et fuga magni maiores
-                molestiae neque, quas quos saepe. Atque cupiditate distinctio enim ex excepturi quisquam sapiente sequi
-                unde, veritatis!
-            </div>
-            <div>Accusantium aliquam aspernatur atque consequatur cupiditate delectus dolores earum exercitationem
-                facilis in ipsam iusto magni, minus nisi obcaecati porro quidem recusandae reiciendis repudiandae sed
-                sint soluta sunt ullam, velit voluptatem!
-            </div>
-            <div>Consectetur dolorum ea eius iste maiores nulla officiis, quod reiciendis totam vel? Asperiores dolorem
-                eum pariatur perspiciatis ullam! Architecto assumenda aut consectetur culpa deleniti error ipsam nemo
-                nobis quis quod?
-            </div>
-            <div>A ab accusamus animi architecto aspernatur consequatur culpa ducimus earum, enim error esse impedit,
-                incidunt itaque iusto molestiae nisi officiis perferendis, placeat porro praesentium quibusdam quidem
-                quis ratione reiciendis ut.
-            </div>
-            <h3 className="main__title mt-5">Deneyimler</h3>
-            <h5 className="mt-3">Aweb Yazılım & Danışmanlık</h5>
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa, deserunt inventore ipsam
-                itaque minima omnis perspiciatis reiciendis. Asperiores consequuntur earum error, hic laborum officiis
-                voluptates! Assumenda natus perspiciatis voluptas?
-            </div>
-            <h5 className="mt-3">Lookus Scientific</h5>
-            <div>A fugit quaerat quia vitae! Accusamus assumenda blanditiis corporis debitis, et fuga magni maiores
-                molestiae neque, quas quos saepe. Atque cupiditate distinctio enim ex excepturi quisquam sapiente sequi
-                unde, veritatis!
-            </div>
-            <h5 className="mt-3">Testinium</h5>
-            <div>Accusantium aliquam aspernatur atque consequatur cupiditate delectus dolores earum exercitationem
-                facilis in ipsam iusto magni, minus nisi obcaecati porro quidem recusandae reiciendis repudiandae sed
-                sint soluta sunt ullam, velit voluptatem!
-            </div>
+            <p>Merhaba Ben Damla. İstanbul'da yaşıyorum. Testinium firmasında farklı projelerde Front End Developer olarak çalışıyorum.</p>
+            <p>Yeni teknolojiler öğrenmeyi, araştırmayı seviyorum. Son 6 ay içinde makale yazmaya başladım. Bunu boş zamanlarımda daha çok sürdürmeyi istiyorum.
+                Yazarak, paylaşarak ve uygulayarak daha iyi öğrenip detayları daha iyi kavradığımı düşünüyorum.
+            </p>
+            <p> Anadolu Üniversitesi İşletme Fakültesini bitirmek üzereyim :) Dumlupınar Üniversitesi Bilgisayar Programcılığı mezunuyum.
+                Farklı diller ve teknolojiler üzerine eğitim aldım.
+                O zamanlar daha çok kitaplardan olsa da eğitim videoları da izleyerek ve gördüklerimi uygulayarak öğrenmeyi tercih ettim. Hala sektörde eğitim veren
+                kişilerin YouTube, Udemy videolarını takip ediyor ve makalelerini okuyorum. Bitirme projesi olarak Android üzerinde okulun paylaştığı duyuruları listeleyen bir uygulama geliştirmiştim.
+            </p>
+            <p>Mezun olduktan sonra Microsoft Yazılım Uzmanlığı kursuna gidip 6 ay eğitim aldım.
+                Bu sürede hem okul bittikten sonra 'eee şimdi ne yapacağım?' stresini attım hem de kendimi iş hayatına hazırlamış oldum.
+                Burada C#, .NET, SQL, Javascript, HTML ve CSS eğitimleri aldım.
+                Front End tarafına her zaman daha çok ilgim vardı fakat tam kararımı kurs bitiminde vermiş oldum.
+            </p>
+            <p>Tam zamanlı olarak çalıştığım bir dönemde freelance işler alarak bu dünyayı da keşfetmiş oldum. Ve kısa bir dönem tam zamanlı olarak remote çalışma fırsatım oldu.</p>
+            <p>Kullandığım teknolojilerden bahsetmem gerekirse; JavaScript, TypeScript, HTML5, Bootstrap, CSS, SCSS, Angular ve React. <br />
+                Version Control System olarak GitLab ve GitHub kullanıyorum. <br />
+                Temel olarak Adobe Photoshop, Adobe Illustrator ve Adobe XD kullanıyorum. <br />
+                Mevcut çalıştığım şirkette Jira ürününü kullaranak proje yönetimini gerçekleştirmekteyiz. <br />
+                Agile & Scrum metodolojisine göre proje geliştirmelerini yürütüyoruz. Bu yöntemin projenin gelişimi sürecinde çok fazla olumlu etkisi olduğunu söylemem gerekir.
+            </p>
+            <p><i>* Bu web sayfasını React.js frameworku olan Next.js ile geliştirdim.</i></p>
         </div>
 
     </Layout>
-
 }
 
 export default HomePage
