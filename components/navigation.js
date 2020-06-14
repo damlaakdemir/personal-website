@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -28,13 +28,6 @@ function Header() {
             <h5 className="col-12 d-flex justify-content-center header__title">Front End Developer</h5>
             <div className="col-12 d-flex justify-content-center mt-5">
                 <div className="col-lg-2 col-md-2 col-sm-2 col-2 d-flex justify-content-center">
-                    <Link href="">
-                        <a target="_blank">
-                            <FontAwesomeIcon className="header__icon" icon={ faEnvelope } />
-                        </a>
-                    </Link>
-                </div>
-                <div className="col-lg-2 col-md-2 col-sm-2 col-2 d-flex justify-content-center">
                     <Link href="//github.com/damlaakdemir">
                         <a target="_blank">
                             <FontAwesomeIcon className="header__icon" icon={ faGithubSquare } />
@@ -45,6 +38,13 @@ function Header() {
                     <Link href="//www.linkedin.com/in/damla-akdemir-207743145/">
                         <a target="_blank">
                             <FontAwesomeIcon className="header__icon" icon={ faLinkedin } />
+                        </a>
+                    </Link>
+                </div>
+                <div className="col-lg-2 col-md-2 col-sm-2 col-2 d-flex justify-content-center">
+                    <Link href="//medium.com/@damlaakdemr">
+                        <a target="_blank">
+                            <FontAwesomeIcon className="header__icon" icon={ faMedium } />
                         </a>
                     </Link>
                 </div>
