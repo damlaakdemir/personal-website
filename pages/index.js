@@ -25,7 +25,7 @@ function HomePage() {
                 Version Control System olarak GitLab ve GitHub kullanıyorum. <br />
                 Temel olarak Adobe Photoshop, Adobe Illustrator ve Adobe XD kullanıyorum. <br />
                 Mevcut çalıştığım şirkette Jira ürününü kullaranak proje yönetimini gerçekleştirmekteyiz. <br />
-                Agile & Scrum metodolojisine göre proje geliştirmelerini yürütüyoruz. Bu yöntemin projenin gelişimi sürecinde çok fazla olumlu etkisi olduğunu söylemem gerekir.
+                Agile & Scrum metodolojisine göre proje geliştirmelerini yürütüyoruz.
             </p>
             <p><i>* Bu web sayfasını React.js frameworku olan Next.js ile geliştirdim.</i></p>
         </div>

@@ -1,10 +1,18 @@
 // main
 
-.main {
-  padding: 50px;
+@media (min-width: 768px) {
+  .main {
+    padding: 50px;
 
-  &__title {
-    margin-bottom: 20px;
-    color: rgba(0,0,0,.85);
+    &__title {
+      margin-bottom: 20px;
+      color: rgba(0, 0, 0, .85);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    padding: 0px 20px;
   }
 }

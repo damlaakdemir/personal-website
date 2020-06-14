@@ -1,9 +1,9 @@
 // header
 
-@media (min-width: 748px) {
+@media (min-width: 768px) {
   .header {
     padding: 50px 0;
-    min-height: 920px;
+    min-height: 1000px;
     height: 100%;
 
     &:after {
@@ -73,13 +73,17 @@
       }
     }
   }
+
+  .nav {
+    display: none;
+  }
 }
 
 // mobile
 
-@media (max-width: 747px) {
+@media (max-width: 767px) {
   .header {
-    padding: 50px 0;
+    padding-top: 50px;
     width: 100%;
 
     &__avatar {
@@ -126,6 +130,10 @@
         font-size: 14px;
       }
     }
+  }
+
+  .nav > .nav-item {
+    padding: 0 10px 20px 10px;
   }
 }
 

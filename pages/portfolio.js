@@ -28,7 +28,7 @@ function Portfolio() {
                 </div>
                 <div>
                     <b className="portfolio__link-dashboard">QA Dashboard</b>, Farklı ortamlardan kaliteye ilişkin metrikleri toplamak için özel gösterge panoları oluşturulan ve tüm metrikleri tek bir yerde izlemek için özel araçlar kullanılan bir üründür. <br />
-                    Bu projede Angular, TypeScript, JavaScript, HTML, SCSS, Ant Design gibi teknolojilerini kullanarak 1 yılı aşkın süredir projenin geliştirilmesine katkıda bulunuyorum.
+                    Bu projede Angular, TypeScript, JavaScript, HTML, SCSS, Ant Design gibi teknolojileri kullanarak 1 yılı aşkın süredir projenin geliştirilmesine katkıda bulunuyorum.
                 </div>
             </div>
             <Link href="//www.lookus.net/">
