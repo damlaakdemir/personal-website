@@ -5,6 +5,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import avatar from '../assets/avatar.png'
+
 function Header() {
     return (
         <header className="col-lg-3 col-md-4 col-sm-12 col-12 header">
@@ -20,7 +22,7 @@ function Header() {
                 </li>
             </ul>
             <div className="col-12 d-flex justify-content-center">
-                <img className="header__avatar" src="../assets/avatar.jpg" alt="Damla Akdemir"/>
+                <img className="header__avatar" src={ avatar } alt="Damla Akdemir"/>
             </div>
             <h3 className="col-12 d-flex justify-content-center mt-3">Damla Akdemir</h3>
             <h5 className="col-12 d-flex justify-content-center header__title">Front End Developer</h5>

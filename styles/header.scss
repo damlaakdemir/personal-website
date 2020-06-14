@@ -16,9 +16,9 @@
     }
 
     &__avatar {
-      width: 150px;
-      height: 150px;
-      border-radius: 80px;
+      height: 160px;
+      border-radius: 50%;
+      background-size: cover;
       border: 4px solid transparent;
       transition: .3s ease-in-out;
       -webkit-animation: 6s colorChange infinite;

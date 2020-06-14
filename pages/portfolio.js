@@ -6,13 +6,17 @@ import Layout from '../components/layout'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
 
+import aweb from '../assets/aweb.png'
+import lookus from '../assets/lookus.png'
+import testinium from '../assets/testinium.svg'
+
 function Portfolio() {
     return <Layout>
         <div className="main">
             <h3 className="main__title">Portfolio</h3>
             <Link href="//www.testinium.com/">
                 <a target="_blank">
-                    <img className="mt-4 portfolio__testinium" src="//testinium.com/images/svg/testinium-web.svg" alt="Testinium" />
+                    <img className="mt-4 portfolio__testinium" src={ testinium } alt="Testinium" />
                 </a>
             </Link>
             <div className="portfolio__date mb-2 mt-3"><FontAwesomeIcon icon={ faCalendarAlt } /> 04/2019 - Hâlen</div>
@@ -24,7 +28,7 @@ function Portfolio() {
                 </div>
                 <div className="mb-3">
                     <Link href="//loadium.io/"><a className="portfolio__link-loadium" target="_blank">Loadum.io</a></Link>, Projenizin yük testini yapan ve anında rapor veren bir platformdur. <br />
-                    Bu projede Angular, TypeScript,JavaScript, HTML, CSS, teknolojilerini kullanarak projenin geliştirilmesine ve bugların fixlenmesine katkıda bulunuyorum.
+                    Bu projede Angular, TypeScript, JavaScript, HTML, CSS, teknolojilerini kullanarak projenin geliştirilmesine ve bugların fixlenmesine katkıda bulunuyorum.
                 </div>
                 <div>
                     <b className="portfolio__link-dashboard">QA Dashboard</b>, Farklı ortamlardan kaliteye ilişkin metrikleri toplamak için özel gösterge panoları oluşturulan ve tüm metrikleri tek bir yerde izlemek için özel araçlar kullanılan bir üründür. <br />
@@ -33,7 +37,7 @@ function Portfolio() {
             </div>
             <Link href="//www.lookus.net/">
                 <a target="_blank">
-                    <img className="mt-5 portfolio__lookus" src="//www.lookus.net/images/LookUs-Logo-Dark.png" alt="Lookus Scientific" />
+                    <img className="mt-5 portfolio__lookus" src= { lookus } alt="Lookus Scientific" />
                 </a>
             </Link>
             <div className="portfolio__date mb-2 mt-3"><FontAwesomeIcon icon={ faCalendarAlt } /> 07/2017 - 12/2018</div>
@@ -43,7 +47,7 @@ function Portfolio() {
             </div>
             <Link href="//www.aweb.com.tr/tr">
                 <a target="_blank">
-                    <img className="mt-5 portfolio__aweb" src="//www.aweb.com.tr/upload/image/logo.png" alt="Aweb Yazılım & Danışmanlık"/>
+                    <img className="mt-5 portfolio__aweb" src= { aweb } alt="Aweb Yazılım & Danışmanlık"/>
                 </a>
             </Link>
             <div className="portfolio__date mb-2 mt-3"><FontAwesomeIcon icon={ faCalendarAlt } /> 07/2016 - 04/2017</div>
