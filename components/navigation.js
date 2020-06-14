@@ -20,7 +20,7 @@ function Header() {
                 </li>
             </ul>
             <div className="col-12 d-flex justify-content-center">
-                <img className="header__avatar" src="https://lh3.googleusercontent.com/a-/AOh14Gigi9QEyZXDejRCceUwfRwjDi7llIRK7avy7oz42w=s192-c-rg-br100" alt="Damla Akdemir"/>
+                <img className="header__avatar" src="../assets/avatar.jpg" alt="Damla Akdemir"/>
             </div>
             <h3 className="col-12 d-flex justify-content-center mt-3">Damla Akdemir</h3>
             <h5 className="col-12 d-flex justify-content-center header__title">Front End Developer</h5>
