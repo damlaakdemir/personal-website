@@ -15,10 +15,10 @@ function Header() {
                     <Link href="/"><a className="header__menu__item">Ana Sayfa</a></Link>
                 </li>
                 <li className="nav-item">
-                    <Link href="/portfolio"><a className="header__menu__item">Portfolio</a></Link>
+                    <Link href="/portfolio"><a className="header__menu__item">Portfolyo</a></Link>
                 </li>
                 <li className="nav-item">
-                    <Link href="/blog"><a className="header__menu__item">Makaleler</a></Link>
+                    <Link href="/blog"><a className="header__menu__item">Blog</a></Link>
                 </li>
             </ul>
             <div className="col-12 d-flex justify-content-center">

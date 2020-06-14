@@ -13,7 +13,7 @@ import testinium from '../assets/testinium.svg'
 function Portfolio() {
     return <Layout>
         <div className="main">
-            <h3 className="main__title">Portfolio</h3>
+            <h3 className="main__title">Portfolyo</h3>
             <Link href="//www.testinium.com/">
                 <a target="_blank">
                     <img className="mt-4 portfolio__testinium" src={ testinium } alt="Testinium" />
