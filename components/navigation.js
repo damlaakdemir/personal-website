@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { faMedium } from '@fortawesome/free-brands-svg-icons'
-import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithubSquare, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import avatar from '../assets/avatar.png'
