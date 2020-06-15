@@ -52,7 +52,7 @@ function Header() {
                 <div className="header__menu d-none d-md-block">
                     <Link href="/"><a className="header__menu__item">Ana Sayfa</a></Link>
                     <Link href="/portfolio"><a className="header__menu__item">Portfolio</a></Link>
-                    <Link href="/blog"><a className="header__menu__item">Makaleler</a></Link>
+                    <Link href="/blog"><a className="header__menu__item">Blog</a></Link>
                 </div>
             </div>
             <div className="col-12 mb-3 header__footer d-none d-md-block">
