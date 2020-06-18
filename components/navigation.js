@@ -51,7 +51,7 @@ function Header() {
             <div className="col-12 d-flex justify-content-center mt-5">
                 <div className="header__menu d-none d-md-block">
                     <Link href="/"><a className="header__menu__item">Ana Sayfa</a></Link>
-                    <Link href="/portfolio"><a className="header__menu__item">Portfolio</a></Link>
+                    <Link href="/portfolio"><a className="header__menu__item">Portfolyo</a></Link>
                     <Link href="/blog"><a className="header__menu__item">Blog</a></Link>
                 </div>
             </div>
